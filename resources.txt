@@ -1,0 +1,6 @@
+https://github.com/mrdbourke/pytorch-deep-learning/blob/main
+
+
+learnpytorch.io
+
+

@@ -1,0 +1,28 @@
+
+
+
+
+Step1:
+get data ready(turn into tensors)
+
+step2:
+build or pick a pretrained model to suit your problem
+step2.5:
+pick a loss function and optimizer
+build a training loop
+
+step 3:
+fit the model to the dtata and make a prediction
+
+step 4:
+evaluate
+
+
+step5:
+
+improve through experimentation
+
+step6: save and reload your trained model
+
+
+
