@@ -1,0 +1,15 @@
+
+
+torch building essentails
+
+torch.nn - contains all of the building blocks for neural networks aka computational graphs
+torch.nn.parameter- what the model try to learn, often set up by layers in torch.nn
+torch.nn.module = the base class for all neural network modules, your models should also subclass this
+torch.optim - this is where all the optimizers are (SGD, Adam, etc)
+def forward() - all nn.module subclasses require you to overwrite the forward method
+
+
+
+
+
+

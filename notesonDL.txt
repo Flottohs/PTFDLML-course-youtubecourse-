@@ -1,0 +1,20 @@
+logits are the raw, unnormalized scores that come directly out of the last layer of your neural network. They represent the "raw belief" the model has for each category before that belief is squeezed into a probability between 0 and 1.
+
+
+
+Unlike probabilities, logits are not restricted.
+
+They can be positive, negative, or zero.
+
+A higher logit value means the model is more "confident" in that class.
+
+A negative logit value means the model strongly believes the data does not belong to that class.
+
+
+
+While logits tell us which class "won," they are hard for humans to interpret and hard for simple math to handle. We usually transform them for two reasons:
+
+Interpretation: We use a Softmax function to turn [4.2, -1.5, 0.8] into probabilities like [92%, 2%, 6%]. This makes it easy to say, "The model is 92% sure this is a dog."
+
+
+Training (Loss): As we discussed earlier, loss functions like CrossEntropyLoss take these raw logits and calculate how far they are from the truth to help the model learn.
